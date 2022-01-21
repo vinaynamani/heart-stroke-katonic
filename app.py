@@ -39,6 +39,11 @@ High blood pressure, high LDL (bad) cholesterol, diabetes, and smoking are key r
 
 st.sidebar.warning("Made with :heart: by Vinay Namani")
 
+git_url = "https://github.com/vinaynamani/heart-stroke-katonic"
+str_text = "Git:Repo"
+link = f'[{str_text}]({git_url})'
+st.markdown(link, unsafe_allow_html=True)
+
 st.write("""
 # Heart Stroke Prediction
 This app predicts whether the patient has a chance to get Heart-Stroke or Not.
